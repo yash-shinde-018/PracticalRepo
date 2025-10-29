@@ -1,0 +1,14 @@
+Use Case : 
+Logistic Manager --- Login
+		     View Report --include-- retrieves data for report
+		     Export Data
+		     Track Emission Trend
+		     Input Trip Data
+Admin --- Access all reports
+	  Manage User Accounts, System Setting
+Regulatory Authority --- Access compliance reports
+			 View Historical Emission
+Database --- Store trip and emission data
+	     Retrieve Data
+	     Backup Information
+		     
