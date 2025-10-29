@@ -1,0 +1,16 @@
+L0:
+Carbon Tracking System -- driver/user
+			  admin
+			  Logistic Manager
+			  Regulatory Authorities
+L1:
+Driver -- UserAuthentication -- validate login credentials -- DB:userAccount -- Edit User Accounts -- User Management -- Assign permissions
+														         Admin
+				roleBasedAccess
+	  Trip data entry & storage -- validation Of Trip Data -- DB:Trip&Emission Records -- Emission Calculation -- DB:Emission Factors
+														      Regulatory Authorities -- verification of data
+L2:
+Emission Calculation -- retrieve emission factor
+			calculate emission
+			update emission record
+			retrives trip data
